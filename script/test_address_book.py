@@ -22,4 +22,4 @@ class TestPage(object):
         # self.page_factory.add_person.input_nick_name("小普")
         # self.page_factory.add_person.input_phone("789874")
         self.page_factory.add_person.click_back_btn()
-        print("jenkins so hard")
+        
