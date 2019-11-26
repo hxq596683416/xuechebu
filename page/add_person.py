@@ -6,7 +6,7 @@ class AddPerson(BasePage):
     name = page.name
     name_spell = page.name
     phone = page.phone
-    nickname = page.nickname
+    # nickname = page.nickname
     back_btn = page.back_btn
 
     def input_name(self, text):
@@ -15,7 +15,7 @@ class AddPerson(BasePage):
     def input_name_spell(self, text):
         self.input_func(self.name_spell, text)
 
-    def input_nick_name(self, text):
+    # def input_nick_name(self, text):
         self.input_func(self.name_spell, text)
 
     def input_phone(self, text):

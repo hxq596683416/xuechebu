@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>sys_project.html</h1>
-    <p>Report generated on 24-Nov-2019 at 09:37:53 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
+    <p>Report generated on 26-Nov-2019 at 19:44:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -252,13 +252,13 @@ function filter_table(elem) {
         <td>Windows-10-10.0.17763-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{&apos;html&apos;: &apos;2.0.1&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;ordering&apos;: &apos;0.6&apos;, &apos;rerunfailures&apos;: &apos;8.0&apos;}</td></tr>
+        <td>{&apos;allure-adaptor2&apos;: &apos;1.7.12&apos;, &apos;html&apos;: &apos;2.0.1&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;ordering&apos;: &apos;0.6&apos;, &apos;rerunfailures&apos;: &apos;8.0&apos;}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.6.2</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 47.23 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>1 tests ran in 26.44 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -269,12 +269,12 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">script/test_address_book.py::TestPage::test_address_book</td>
-          <td class="col-duration">31.37</td>
+          <td class="col-duration">11.90</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_address_book.TestPage object at 0x00000246E8662E48&gt;<br/><br/>    def test_address_book(self):<br/>        self.page_factory.index_page.click_address_book()<br/>        self.page_factory.save_page.click_save()<br/>        self.page_factory.add_person.input_name(&quot;南京&quot;)<br/>        self.page_factory.add_person.input_name_spell(&quot;pujing&quot;)<br/>&gt;       self.page_factory.add_person.input_nick_name(&quot;小普&quot;)<br/><br/>test_address_book.py:22: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>..\page\add_person.py:19: in input_nick_name<br/>    self.input_func(self.name_spell, text)<br/>..\base\base_page.py:19: in input_func<br/>    element = self.find_element_func(location)<br/>..\base\base_page.py:12: in find_element_func<br/>    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*location))<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;2f88b449-d0ce-4715-ab95-a586cdb6585a&quot;)&gt;<br/>method = &lt;function BasePage.find_element_func.&lt;locals&gt;.&lt;lambda&gt; at 0x00000246E84F4950&gt;<br/>message = &#x27;&#x27;<br/><br/>    def until(self, method, message=&#x27;&#x27;):<br/>        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \<br/>        return value is not False.&quot;&quot;&quot;<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.time() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, &#x27;screen&#x27;, None)<br/>                stacktrace = getattr(exc, &#x27;stacktrace&#x27;, None)<br/>            time.sleep(self._poll)<br/>            if time.time() &gt; end_time:<br/>                break<br/>&gt;       raise TimeoutException(message, screen, stacktrace)<br/><span class="error">E       selenium.common.exceptions.TimeoutException: Message:</span><br/><br/>D:\Python\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException<br/></div></td></tr></tbody></table></body></html>
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
